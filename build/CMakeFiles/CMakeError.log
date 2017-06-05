@@ -1,0 +1,90 @@
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WX_FLAG failed with the following output:
+Change Dir: /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_5a35d/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_5a35d.dir/build.make CMakeFiles/cmTC_5a35d.dir/build
+gmake[1]: Entering directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a35d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++  -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -DLIBUNWIND_HAS_WX_FLAG   /WX -o CMakeFiles/cmTC_5a35d.dir/src.cxx.o -c /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/WX'
+gmake[1]: *** [CMakeFiles/cmTC_5a35d.dir/build.make:66: CMakeFiles/cmTC_5a35d.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_5a35d/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_WX_FLAG failed with the following output:
+Change Dir: /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_db479/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_db479.dir/build.make CMakeFiles/cmTC_db479.dir/build
+gmake[1]: Entering directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db479.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++  -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -DLIBUNWIND_HAS_NO_WX_FLAG   /WX- -o CMakeFiles/cmTC_db479.dir/src.cxx.o -c /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/WX-'
+gmake[1]: *** [CMakeFiles/cmTC_db479.dir/build.make:66: CMakeFiles/cmTC_db479.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_db479/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_EHSC_FLAG failed with the following output:
+Change Dir: /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_f83c9/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_f83c9.dir/build.make CMakeFiles/cmTC_f83c9.dir/build
+gmake[1]: Entering directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f83c9.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++  -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -DLIBUNWIND_HAS_EHSC_FLAG   /EHsc -o CMakeFiles/cmTC_f83c9.dir/src.cxx.o -c /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/EHsc'
+gmake[1]: *** [CMakeFiles/cmTC_f83c9.dir/build.make:66: CMakeFiles/cmTC_f83c9.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_f83c9/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_EHS_FLAG failed with the following output:
+Change Dir: /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_2c28b/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_2c28b.dir/build.make CMakeFiles/cmTC_2c28b.dir/build
+gmake[1]: Entering directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c28b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++  -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -DLIBUNWIND_HAS_NO_EHS_FLAG   /EHs- -o CMakeFiles/cmTC_2c28b.dir/src.cxx.o -c /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/EHs-'
+gmake[1]: *** [CMakeFiles/cmTC_2c28b.dir/build.make:66: CMakeFiles/cmTC_2c28b.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_2c28b/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_EHA_FLAG failed with the following output:
+Change Dir: /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_99f23/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_99f23.dir/build.make CMakeFiles/cmTC_99f23.dir/build
+gmake[1]: Entering directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99f23.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++  -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -DLIBUNWIND_HAS_NO_EHA_FLAG   /EHa- -o CMakeFiles/cmTC_99f23.dir/src.cxx.o -c /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/EHa-'
+gmake[1]: *** [CMakeFiles/cmTC_99f23.dir/build.make:66: CMakeFiles/cmTC_99f23.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_99f23/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_GR_FLAG failed with the following output:
+Change Dir: /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_bfcdd/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_bfcdd.dir/build.make CMakeFiles/cmTC_bfcdd.dir/build
+gmake[1]: Entering directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bfcdd.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++  -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -DLIBUNWIND_HAS_NO_GR_FLAG   /GR- -o CMakeFiles/cmTC_bfcdd.dir/src.cxx.o -c /Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/GR-'
+gmake[1]: *** [CMakeFiles/cmTC_bfcdd.dir/build.make:66: CMakeFiles/cmTC_bfcdd.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Downloads/libunwind-4.0.0.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_bfcdd/fast] Error 2
+
+Source file was:
+int main() { return 0; }
