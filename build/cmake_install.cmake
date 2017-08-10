@@ -1,4 +1,4 @@
-# Install script for directory: /Users/dojo/Downloads/libunwind-4.0.0.src
+# Install script for directory: /Users/dojo/libunwind_mac_2017_64_32
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/dojo/Downloads/libunwind-4.0.0.src/build/src/cmake_install.cmake")
+  include("/Users/dojo/libunwind_mac_2017_64_32/build/src/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/dojo/Downloads/libunwind-4.0.0.src/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/dojo/libunwind_mac_2017_64_32/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -88,3 +88,45 @@ gmake: *** [Makefile:126: cmTC_bfcdd/fast] Error 2
 
 Source file was:
 int main() { return 0; }
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Ofast;-fomit-frame-pointer;-ffast-math;-fno-signed-zeros;-m64;-m32;-mmmx;-msse;-funroll-loops
+Build flags: -Ofast;-fomit-frame-pointer;-ffast-math;-fno-signed-zeros;-m64;-m32;-mmmx;-msse;;-funroll-loops
+Id flags:  
+
+The output was:
+1
+ld: in '/usr/local/lib/libunwind.dylib', file was built for x86_64 which is not the architecture being linked (i386): /usr/local/lib/libunwind.dylib for architecture i386
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/usr/bin/g++ -Ofast;-fomit-frame-pointer;-ffast-math;-fno-signed-zeros;-m64;-m32;-mmmx;-msse;-funroll-loops
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: in '/usr/local/lib/libunwind.dylib', file was built for x86_64 which is not the architecture being linked (i386): /usr/local/lib/libunwind.dylib for architecture i386
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/dojo/libunwind_mac_2017_64_32/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_3c63d/fast"
+gmake[1]: Entering directory '/Users/dojo/libunwind_mac_2017_64_32/build/CMakeFiles/CMakeTmp'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_3c63d.dir/build.make CMakeFiles/cmTC_3c63d.dir/build
+gmake[2]: Entering directory '/Users/dojo/libunwind_mac_2017_64_32/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c63d.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops   -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops  -arch i386 -arch x86_64   -o CMakeFiles/cmTC_3c63d.dir/testCCompiler.c.o   -c /Users/dojo/libunwind_mac_2017_64_32/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3c63d
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c63d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops -Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m64 -m32 -mmmx -msse  -funroll-loops  -arch i386 -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/qt/lib -L/usr/local/opt/icu4c/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/libxml2/lib -L/usr/local/opt/libpng/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3c63d.dir/testCCompiler.c.o  -o cmTC_3c63d 
+ld: in '/usr/local/lib/libunwind.dylib', file was built for x86_64 which is not the architecture being linked (i386): /usr/local/lib/libunwind.dylib for architecture i386
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+gmake[2]: *** [CMakeFiles/cmTC_3c63d.dir/build.make:98: cmTC_3c63d] Error 1
+gmake[2]: Leaving directory '/Users/dojo/libunwind_mac_2017_64_32/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [Makefile:126: cmTC_3c63d/fast] Error 2
+gmake[1]: Leaving directory '/Users/dojo/libunwind_mac_2017_64_32/build/CMakeFiles/CMakeTmp'
+
+

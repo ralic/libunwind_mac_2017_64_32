@@ -1,4 +1,4 @@
-# Install script for directory: /Users/dojo/Downloads/libunwind-4.0.0.src/src
+# Install script for directory: /Users/dojo/libunwind_mac_2017_64_32/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/Users/dojo/Downloads/libunwind-4.0.0.src/build/lib/libunwind.1.0.dylib"
-    "/Users/dojo/Downloads/libunwind-4.0.0.src/build/lib/libunwind.1.dylib"
-    "/Users/dojo/Downloads/libunwind-4.0.0.src/build/lib/libunwind.dylib"
+    "/Users/dojo/libunwind_mac_2017_64_32/build/lib/libunwind.1.0.dylib"
+    "/Users/dojo/libunwind_mac_2017_64_32/build/lib/libunwind.1.dylib"
+    "/Users/dojo/libunwind_mac_2017_64_32/build/lib/libunwind.dylib"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunwind.1.0.dylib"
@@ -48,7 +48,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/dojo/Downloads/libunwind-4.0.0.src/build/lib/libunwind.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/dojo/libunwind_mac_2017_64_32/build/lib/libunwind.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunwind.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunwind.a")
     execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunwind.a")
